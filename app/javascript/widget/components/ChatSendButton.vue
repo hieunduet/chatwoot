@@ -7,7 +7,7 @@
   >
     <i
       v-if="!loading"
-      class="ion-android-send icon-holder"
+      class="ion-android-send icon-holder chatxxx"
       :style="`color: ${color}`"
     />
     <spinner v-else size="small" />
