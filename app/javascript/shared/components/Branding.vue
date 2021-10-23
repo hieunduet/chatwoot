@@ -1,5 +1,5 @@
 <template>
-  <div v-if="globalConfig.brandName" class="branding">
+  <div v-if="false" class="branding">
     <a
       :href="brandRedirectURL"
       rel="noreferrer noopener nofollow"
