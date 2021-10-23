@@ -1,14 +1,14 @@
 <template>
   <div v-if="globalConfig.brandName" class="branding">
     <a
-      :href="brandRedirectURL"
+      href="javascript:;"
       rel="noreferrer noopener nofollow"
       target="_blank"
       class="branding--link w-full justify-center"
     >
       <img :alt="globalConfig.brandName" :src="globalConfig.logoThumbnail" />
       <span>
-        {{ useInstallationName($t('POWERED_BY'), globalConfig.brandName) }}
+        ChatXXX
       </span>
     </a>
   </div>
